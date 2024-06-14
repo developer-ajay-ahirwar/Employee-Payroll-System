@@ -5,6 +5,10 @@ public class Main {
         payRollSyatem.addEmployee(fEmployee_1);
         PartTimeEmployee pEmployee_1 = new PartTimeEmployee("Rohit", 101, 51, 25);
         payRollSyatem.addEmployee(pEmployee_1);
+        // payRollSyatem.desplayEmployee();
+
+        payRollSyatem.removeEmployee(101);
         payRollSyatem.desplayEmployee();
+
     }
 }
