@@ -15,7 +15,7 @@ public abstract class Emlpoyee {
     public abstract double calculateSalary();
     @Override
     public String toString(){
-        return "Employee{name="+name+" \n id="+id+" \n Salary="+calculateSalary()+"}";
+        return "Employee{name="+name+"  id="+id+" Salary="+calculateSalary()+"}";
     }
 
 }
